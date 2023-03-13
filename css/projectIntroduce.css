@@ -1,0 +1,117 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  height: 100%;
+  color: #fff;
+  background: #fbfbfb;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+} 
+
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+} 
+
+.bannerImg{
+    width: 100%;
+    height: 100%;
+} 
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  color: #1abc9c;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background: #1abc9c;
+  display: flex;
+  position: relative;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bannerTitle{
+  margin: 35px 0 0 140px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+nav {
+  background: #fff;
+  clear: both;
+  overflow: hidden;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 25px 20px;
+  text-decoration: none;
+  color: #1abc9c;
+  font-weight: normal;
+}
+nav ul li a:hover {
+  background: #eee;
+}
+
+section {
+  width: 100%;
+  color: #444;
+  object-fit: cover;
+}
+section article {
+  padding: 100px 0;
+}
+
+section:nth-of-type(odd) {
+  background: #fff;
+}
+
+/*helper*/
+.isFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 0 #eee;
+}
+
+.whiteSpace {
+  margin-top: 60px;
+  -webkit-transition: none;
+  transition: none;
+}
+
